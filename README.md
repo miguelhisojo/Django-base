@@ -28,6 +28,7 @@ This repository contains the basics of any django app
  The application uses MySQL engine, a config file has been created separately, for the development environment, but for production,
  is better to set environment variables.
  
+ 
  MySQL conf file structure:
   
 # file_mysql.cnf  </br>
