@@ -16,7 +16,8 @@ This repository contains the basics of any django app
  git clone https://github.com/miguelhisojo/Django_App_Base.git
  
 ## Create a virtual environment
-  virtualenv  --python=/usr/bin/python3.6 *your_virtual_environment_name*
+  virtualenv  --python=/usr/bin/python3.6 *your_virtual_environment_name* 
+  **NOTE: you must use python3.6 or superior**
  
 ## Install requirements
 
