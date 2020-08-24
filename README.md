@@ -15,6 +15,13 @@ This repository contains the basics of any django app
 
  git clone https://github.com/miguelhisojo/Django_App_Base.git
  
+## Create a virtual environment
+  virtualenv  --python=/usr/bin/python3.6 *your_virtual_environment_name*
+ 
+## Install requirements
+
+  pip install -r requirements.txt
+
 ## Create a MySQL configuration file
   
  The application uses MySQL engine, a config file has been created separately, for the development environment, but for production,
