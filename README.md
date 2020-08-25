@@ -19,7 +19,7 @@ This repository contains the basics of any django app
 
 ## Create a virtual environment
 ```
-virtualenv  --python=/usr/bin/python3.6 *your_virtual_environment_name* </br></br>
+virtualenv  --python=/usr/bin/python3.6 *your_virtual_environment_name* 
   ```
   **NOTE: you must use python3.6 or superior**
  
@@ -35,13 +35,13 @@ virtualenv  --python=/usr/bin/python3.6 *your_virtual_environment_name* </br></b
  
  MySQL conf file structure:
  ``` 
-# file_mysql.cnf  </br>
-[client]</br>
-database = *your_database_name*</br>
-user = *your_user_name*</br>
-password = *your_password*</br>
-host = *localhost*</br>
-port = *3306*</br>
+# file_mysql.cnf  
+[client]
+database = *your_database_name*
+user = *your_user_name*
+password = *your_password*
+host = *localhost*
+port = *3306*
 ```
 ## Create tables
 ```
