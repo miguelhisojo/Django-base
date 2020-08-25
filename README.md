@@ -13,17 +13,20 @@ This repository contains the basics of any django app
 
 ## Clone this repository in your terminal.
 
+```
  git clone https://github.com/miguelhisojo/Django_App_Base.git
- 
+ ```
+
 ## Create a virtual environment
-  virtualenv  --python=/usr/bin/python3.6 *your_virtual_environment_name* </br></br>
-  
+```
+virtualenv  --python=/usr/bin/python3.6 *your_virtual_environment_name* </br></br>
+  ```
   **NOTE: you must use python3.6 or superior**
  
 ## Install requirements
-
+```
   pip install -r requirements.txt
-
+```
 ## Create a MySQL configuration file
   
  The application uses MySQL engine, a config file has been created separately, for the development environment, but for production,
@@ -31,7 +34,7 @@ This repository contains the basics of any django app
  
  
  MySQL conf file structure:
-  
+ ``` 
 # file_mysql.cnf  </br>
 [client]</br>
 database = *your_database_name*</br>
@@ -39,15 +42,16 @@ user = *your_user_name*</br>
 password = *your_password*</br>
 host = *localhost*</br>
 port = *3306*</br>
-
-## Create tables 
+```
+## Create tables
+```
  python manage.py makemigrations
  python manage.py migrate
-
-## Test it
-
+```
+## Test!
+```
   python manage.py runserver
-  
+```  
   click on Register and create a user account on your database
 
 
@@ -57,6 +61,6 @@ port = *3306*</br>
 ## Sart builing your apps
 
 To create a new app you only need to start it with django
-
+```
 - python manage.py startapp **your_app_name**
-
+```
