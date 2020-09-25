@@ -1,8 +1,8 @@
 # Django user management
 
-Today's app deployment must be fast and simple. Having aplications that we can actually reuse to start new projects is necessary, since time is money.
-This repository is aim to be a base for any user based application, containing the basics of any application, it is aimed to be flexible to
-allow any developer to start creating any application on top of it.
+Today's app deployment must be fast and simple. Having aplications that we can actually reuse to start any new projects has become a necessity.
+This repository is aim to be a base for any user based application, it contains the basics of any application and is aimed to be flexible, allowing
+developers to start creating applications on top of it.
 
 This repository contains the basics of any django app
   - User registration
