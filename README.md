@@ -1,6 +1,6 @@
 # Django user management
 
-Today app deployment must be fast and simple. Having aplications that we can actually reuse to start new projects is necessary, since time is money.
+Today's app deployment must be fast and simple. Having aplications that we can actually reuse to start new projects is necessary, since time is money.
 This repository is aim to be a base for any user based application, containing the basics of any application, it is aimed to be flexible to
 allow any developer to start creating any application on top of it.
 
